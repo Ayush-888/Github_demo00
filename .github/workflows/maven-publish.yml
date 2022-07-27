@@ -38,6 +38,6 @@ jobs:
     - name: init with Maven
       run: git init
     - name: pull with Maven
-      run: git pull https://github.com/githubtraining/hellogitworld.git
+      run: git pull https://github.com/manikmagar/mule4-examples.git master
     - name: Push with Maven
       run: git push https://github.com/Ayush-888/Github-action-demo.git master
