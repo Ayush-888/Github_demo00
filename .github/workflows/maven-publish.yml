@@ -29,8 +29,6 @@ jobs:
 
     - name: Build with Maven
       run: echo "Hello Github"
-    - name: Clean with Maven
-      run: mvn clean package
     - name: New Folder with Maven
       run: mkdir demo
     - name: New Directory with Maven
